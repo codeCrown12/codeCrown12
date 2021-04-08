@@ -1,0 +1,104 @@
+
+:root{
+    --brand : #38528f;
+}
+body{
+    position: relative;
+    background-color: rgb(252, 252, 252) !important;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navbar styling */
+.navbar{
+    border-bottom: 1px solid #dee2e6 !important;
+    background-color: #fff !important;
+    font-size: 15px;
+    box-shadow: rgb(54, 54, 54) -1px 1px 7px;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    transition: .4s;
+    color: var(--brand) !important;
+    font-weight: bold !important;
+}
+/* End of Navbar styling */
+
+.myjumbotron{
+    background: #606c88;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 58px;
+}
+.straight{
+    border-radius: 0;
+}
+.connect{
+    border-radius: 23px !important;
+}
+
+.display-icons{
+    font-size: 25px;
+    margin-left: 6px;
+}
+.main-icon{
+    background-color: var(--brand);
+    margin-right: 15px;
+    color: #fff;
+    width: 66px;
+    height: 65px;
+    padding: 17px;
+    border-radius: 50%;
+}
+.icon-main{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+    background-color: #fff;
+    
+}
+@media screen and (max-width:600px){
+    .icon-main{
+        margin-top: 14px !important;
+    }
+    .myphoto{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .card{
+        width: 100% !important;
+        margin-top: 10px;
+    }
+    .contactimg{
+        width: 100%;
+    }
+}
+.skills{
+    margin-bottom: 0 !important;
+    background-color: rgb(252, 252, 252) !important;
+}
+
+.icon-title{
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--brand);
+}
+.count{
+    font-size: 27px;
+}
+.base-color{
+    color: var(--brand);
+}
+.send{
+    background-color: var(--brand);
+    border: var(--brand);
+}
+.card-icons{
+    font-size: 50px;
+    color: var(--brand);
+}
+
