@@ -49,6 +49,7 @@ img{
 .jumbo-name{
     font-size: 3em;
     margin-bottom: 0;
+    text-align: center;
 }
 .jumbo-description{
     font-size: 18px;
@@ -210,4 +211,15 @@ footer{
     padding: 30px 20px;
     background-color: whitesmoke;
     text-align: center;
+}
+@media screen and (max-width: 700px) {
+    .social-icons{
+        justify-content: center;
+    }
+    .contact-info{
+        text-align: center;
+    }
+    .contact-form{
+        margin-top: 20px;
+    }
 }
