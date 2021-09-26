@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @King Jacob Francis
-- 👀 I’m interested in web development (HTML, CSS, Javascript, PHP, JQuery, Bootstrap), Java, kotlin, Android and IOS application development, python developer. I love learning new things.
+- 👀 I’m interested in web development (HTML, CSS, Javascript, PHP, JQuery, Bootstrap, React JS), Java, kotlin, Android and IOS application development, python developer. I love learning new things.
 - 🌱 I’m currently learning IOS application development and upgrading my skills in javascript
 - 💞️ I’m looking to collaborate on web and android projects
 - 📫 You can reach me via my twitter handle @Kingjacobxx 
