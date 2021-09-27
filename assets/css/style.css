@@ -20,30 +20,60 @@ img{
     /* border-bottom: 1px solid #dee2e6 !important; */
     background-color: #fff !important;
     font-size: 17px;
-    box-shadow: 0 4px 15px -5px rgb(0 0 0 / 10%);
+    /* box-shadow: 0 4px 15px -5px rgb(0 0 0 / 10%); */
 }
 .navbar-light .navbar-nav .nav-link.active{
     transition: .4s;
     color: var(--primary) !important;
     font-weight: bold !important;
 }
+.navbar-toggler:focus{
+    outline: 0;
+    box-shadow: none;
+}
 /* End of Navbar styling */
 .myicon{
-    border: 3px solid var(--primary);
-    padding: 7px 15px;
+    border: 2px solid var(--primary);
+    padding: 6px 14px;
     font-size: 20px;
     font-weight: 800;
     color: var(--primary) !important;
+}
+@keyframes bounce {
+    0%{transform: translateY(0);}
+    50%{transform: translateY(25px);}
+    100%{transform: translateY(0px);}
+}
+.bounce-arrow{
+    width: fit-content;
+    border: 1px solid var(--primary);
+    margin: auto;
+    color: var(--primary) !important;
+    padding: 15px 20px;
+    border-radius: 50%;
+    animation: bounce 1.7s infinite linear;
+}
+.btn-default{
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--primary);
+    padding: 14px 30px;
+    text-align: center;
+    transition: .5s ease;
+    border-radius: 0;
+}
+.btn-default:hover{
+    color: #fff !important;
+    background-color: #1d8372;
 }
 .main-jumbotron{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #ccc;
-    height: 500px;
-    color: white;
-    background-color: var(--brand);
+    height: 450px;
+    color: #000;
+    background-image: linear-gradient(to top, #e7f2f3 0%, #e3eeff 99%, #e3eeff 100%);
     margin-top: 54px;
 }
 .jumbo-name{
@@ -221,5 +251,8 @@ footer{
     }
     .contact-form{
         margin-top: 20px;
+    }
+    .myicon{
+        border: 1px solid var(--primary);
     }
 }

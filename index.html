@@ -16,43 +16,50 @@
         integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
-<body>
-  <nav id="navbarmain" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<body id="home" data-bs-spy="scroll" data-bs-target="#navbarmain" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+  <nav id="navbarmain" class="navbar navbar-light bg-light fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand ms-md-2" href="#"><div class="myicon">KJ</div></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#"><div class="myicon">KJ</div></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto me-auto">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><div class="myicon">KJ</div></h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
-  <div id="home" class="main-body" data-bs-spy="scroll" data-bs-target="#navbarmain" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+  <div id="home" class="main-body">
     <div class="main-jumbotron">
       <div class="jumbo-text">
         <p class="jumbo-name">JACOB KING FRANCIS</p>
         <p class="jumbo-description">Web Developer/Software Engineer</p>
-        <p class="text-center"><a href="" class="btn btn-outline-light">Get resume</a></p>
+        <p class="text-center mt-4"><a href="" class="btn btn-default">Get resume</a></p>
+        <a href="#about"><div class="bounce-arrow"><i class="fas fa-arrow-down"></i></div></a>
       </div>
   </div>
   <div class="container mt-5">
@@ -211,7 +218,7 @@
               <h3>Contact information</h3>
               <ul class="myinfo">
                 <li><i class="fas fa-at"></i> kingsjacobfrancis@gmail.com</li>
-                <li class="info-item"><i class="fas fa-phone"></i> +2349017259065</li>
+                <!-- <li class="info-item"><i class="fas fa-phone"></i> +2349017259065</li> -->
               </ul>
               <div class="socials">
                 <h3>Follow me</h3>
