@@ -1,10 +1,9 @@
-
 :root{
     --brand : #353434;
     --primary: #2abea5;
 }
 body{
-    font-family: 'TaylorSansRegular';
+    font-family: 'Adobe Clean UX', sans-serif;
 }
 p{
     font-size: 18px;
@@ -17,7 +16,7 @@ img{
 }
 /* Navbar styling */
 .navbar{
-    /* border-bottom: 1px solid #dee2e6 !important; */
+    border-bottom: 1px solid #dee2e6 !important;
     background-color: #fff !important;
     font-size: 17px;
     /* box-shadow: 0 4px 15px -5px rgb(0 0 0 / 10%); */
