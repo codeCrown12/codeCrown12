@@ -3,7 +3,7 @@
     --primary: #2abea5;
 }
 body{
-    font-family: 'Adobe Clean UX', sans-serif;
+    font-family: 'Adobe Clean UX', sans-serif !important;
 }
 p{
     font-size: 18px;
