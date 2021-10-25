@@ -19,7 +19,7 @@ img{
 .navbar{
     border-bottom: 1px solid #dee2e6 !important;
     background-color: #fff !important;
-    font-size: 17px;
+    font-size: 15px;
     /* box-shadow: 0 4px 15px -5px rgb(0 0 0 / 10%); */
 }
 .navbar-light .navbar-nav .nav-link.active{
@@ -95,6 +95,7 @@ img{
 }
 .short-cut{
     color: teal;
+    text-decoration: none;
 }
 .short-cut:hover{
     color: #026969;
