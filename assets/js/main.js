@@ -25,16 +25,5 @@ function submitform(){
     }
     else{
         myform.submit()
-        Swal.fire({
-            title: 'Success',
-            icon: 'success',
-            text: 'Message sent successfully!',
-            showClass: {
-              popup: 'animate__animated animate__bounceInRight'
-            },
-            hideClass: {
-              popup: 'animate__animated animate__bounceOutLeft'
-            }
-          })
     }
 }
