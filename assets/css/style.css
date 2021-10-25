@@ -34,10 +34,11 @@ img{
 /* End of Navbar styling */
 .myicon{
     border: 2px solid var(--primary);
-    padding: 6px 14px;
+    padding: 5px 10px;
     font-size: 20px;
     font-weight: 800;
     color: var(--primary) !important;
+    margin: 0;
 }
 @keyframes bounce {
     0%{transform: translateY(0);}
@@ -89,10 +90,16 @@ img{
     width: 100%;
     height: 400px;
 }
-.card{
+.myhover{
     transition: .5s ease;
 }
-.card:hover{
+.short-cut{
+    color: teal;
+}
+.short-cut:hover{
+    color: #026969;
+}
+.myhover:hover{
     transform: translateY(-10px);
     box-shadow: 0 4px 15px -5px rgb(0 0 0 / 35%);
     border-color: white;
@@ -102,60 +109,7 @@ img{
     font-weight: 600;
     margin-top: 50px !important;
 }
-.p-object{
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-.p-img{
-    height: 300px;
-    width: 100%;
-    transition: .5s ease;
-}
-.p-title{
-    margin-top: 80px;
-    margin-bottom: 0;
-    font-size: 19px;
-    font-weight: 700;
-}
-.p-tools{
-    margin-top: 15px;
-}
-.p-overlay {
-    text-align: center;
-    position: absolute;
-    padding: 10px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    transition: .5s ease;
-    color: white;
-    animation: goup 1s 1;
-    transform: translateY(-110%);
-    background: rgba(0, 0, 0, 0.5);
-}
-.p-object:hover .p-overlay{
-    display: block;
-    animation: drop 2s 1 forwards;
-}
-.p-object:hover img{
-    transform: scale(1.1);
-}
 
-@keyframes goup{
-    0%{transform: translateY(0);}
-    100%{transform: translateY(-110%);}
-}
-
-@keyframes drop {
-    0%{transform: translateY(-110%);}
-    50%{transform: translateY(0);}
-    75%{transform: translateY(-20%);}
-    100%{transform: translateY(0);}
-}
 .service-title{
     font-weight: bold;
 }
