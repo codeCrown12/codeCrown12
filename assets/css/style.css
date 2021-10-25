@@ -100,11 +100,11 @@ img{
 .short-cut:hover{
     color: #026969;
 }
-.myhover:hover{
+/* .myhover:hover{
     transform: translateY(-10px);
     box-shadow: 0 4px 15px -5px rgb(0 0 0 / 35%);
     border-color: white;
-}
+} */
 .section-title{
     color: var(--brand);
     font-weight: 600;
