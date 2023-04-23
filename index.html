@@ -1,282 +1,178 @@
 <!DOCTYPE html>
-<html lang="en" id="home">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jacob King Francis</title>
-    <!-- Bootstrap stylesheets -->
-    <link href="https://fonts.cdnfonts.com/css/adobe-clean" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
-        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-</head>
-<body id="home" data-bs-spy="scroll" data-bs-target="#navbarmain" data-bs-offset="250" class="scrollspy-example" tabindex="0">
-  <nav id="navbarmain" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand ms-lg-3 ms-sm-0" href="#">Codecrown👑</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><div class="myicon">KJ</div></h5>
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  <html lang="en" id="home">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jacob King Francis</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+      
+      <nav class="lg:block md:block hidden">
+        <div class="flex justify-end p-4 font-main text-[16px]">
+          <div class="flex items-center">
+            <div class="mr-4 font-bold"><a href="/">Home</a></div>
+            <div class="mr-4 font-bold"><a href="#about">About</a></div>
+            <div class="mr-4 font-bold"><a href="#skills">Skills</a></div>
+            <div class="mr-4 font-bold"><a href="#projects">Projects</a></div>
+            <div class="mr-4 font-bold"><a href="#contact">Contact</a></div>
+          </div>
         </div>
-        <div class="offcanvas-body ms-lg-auto ms-sm-0">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+      </nav>
+
+      <section class="my-20 font-custom">
+        <div class="w-fit mx-auto lg:px-0 md:px-0 px-5">
+            <div>
+              <p>I am</p>
+              <h1 class="text-[6em] font-bold">JACOB KING FRANCIS</h1>
+              <p class="text-center text-[1.3em]">Software Engineer / Full stack web developer</p>
+            </div>
         </div>
+      </section>
+
+      <section class="my-20" id="about">
+        <div class="lg:w-[70%] md:w-[70%] w-[90%] mx-auto">
+          <div class="text-[16px]">
+            <h4 class="font-bold font-custom text-[2em] mb-1">About Me</h4>
+            <div class="font-main">
+              <p>I'm a full stack web developer currently based in Nigeria with a strong passion for building incredibly beautiful, sophisticated, and highly functional web applications.</p>
+              <p class="mt-2">I'm a very critical and analytical thinker and I take pride in my ability to listen to and understand client requirements thoroughly and efficiently translate them into software solutions.</p>
+              <p class="mt-2">I'm a team player, I'm hardworking, fun and easy to work with. And if you're looking for 'THE 😉' developer that can take your business/idea to a whole new level of greatness I'm your best bet.</p>
+              <p class="mt-2">Additional information about my work history and educational background can be found in my resume below.</p>
+            </div>
+            <div class="mt-6">
+              <a href="./assets/King-Jacob-resume.pdf" target="_blank" class="bg-black hover:bg-gray-800 rounded-0 text-white font-main py-2 px-6">Get resume</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-20" id="skills">
+        <div class="mx-auto w-[90%]">
+          <h4 class="font-bold font-custom text-[2em] mb-1 text-center">My skills</h4>
+        </div>
+        <div class="bg-gray-100 font-main py-10 mt-5">
+          <div class="mx-auto w-[90%]">
+            <div class="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-1 gap-20">
+              <div class="flex flex-col items-center">
+                <div><img class="w-[80px]" src="./assets/images/javascript-icon.png"></div>
+                <p>Javascript</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <div><img class="w-[80px]" src="./assets/images/typescript-icon.png"></div>
+                <p>Typescript</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <div><img class="w-[80px]" src="./assets/images/nodejs-icon.png"></div>
+                <p>Node</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <div><img class="w-[80px]" src="./assets/images/express-icon.png"></div>
+                <p>Express</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <div><img class="w-[80px]" src="./assets/images/nest-icon.png"></div>
+                <p>Nest</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <div><img class="w-[80px]" src="./assets/images/react-icon.png"></div>
+                <p>React</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <div><img class="w-[80px]" src="./assets/images/vue-icon.png"></div>
+                <p>Vue</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <div><img class="w-[80px]" src="./assets/images/python-icon.png"></div>
+                <p>Python</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <div><img class="w-[80px]" src="./assets/images/php-icon.png"></div>
+                <p>PHP</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <div><img class="w-[80px]" src="./assets/images/mysql-icon.png"></div>
+                <p>MySQL</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <div><img class="w-[80px]" src="./assets/images/postgres-icon.png"></div>
+                <p>PostgreSQL</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <div><img class="w-[80px]" src="./assets/images/mongodb-icon.png"></div>
+                <p>MongoDB</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-20" id="projects">
+        <div class="mx-auto w-[90%]">
+          <h4 class="font-bold font-custom text-[2em] mb-1 text-center">Projects</h4>
+          <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 mt-5">
+            <div class="border-[1px] border-gray-400 rounded-0 p-2">
+              <div><img src="./assets/images/farmfeat.png" class="rounded-0" alt=""></div>
+              <div>
+                <p></p>
+                <h4 class="font-custom text-[25px] font-bold mt-2">FARMFEAT</h4>
+                <p class="font-code uppercase text-[14px]">Vue, Vuex, Tailwind</p>
+                <p class="font-main text-[15px] mt-2">Developed the frontend of an E-commerce web app that connects farmers and agro dealers to buyers and investors.</p>
+                <div class="mt-5 mb-2">
+                  <a href="https://farmfeat.com" target="_blank" class="border-black border-[1px] text-black hover:bg-gray-800 hover:text-white rounded-0 font-main py-2 px-4 text-[15px]"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+              </div>
+            </div>
+            <div class="border-[1px] border-gray-400 rounded-0 p-2">
+              <div><img src="./assets/images/eonace.png" class="rounded-0" alt=""></div>
+              <div>
+                <p></p>
+                <h4 class="font-custom text-[25px] font-bold mt-2">EONACE</h4>
+                <p class="font-code text-[14px] uppercase">Node, Express, MongoDB</p>
+                <p class="font-main text-[15px] mt-2">Developed the backend of a fintech web app that enables seamless payment of utility bills, buying/selling of giftcards, etc.</p>
+                <div class="mt-5 mb-2">
+                  <a href="https://eonace.co" target="_blank" class="border-black border-[1px] text-black hover:bg-gray-800 hover:text-white rounded-0 font-main py-2 px-4 text-[15px]"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-20" id="contact">
+        <div class="mx-auto lg:w-[60%] md:w-[60%] w-[90%]">
+          <div>
+            <h4 class="font-bold font-custom text-[2em] mb-1 text-center">Contact</h4>
+            <div class="mt-5">
+              <h5 class="font-custom text-[2em] font-bold">Let's work together on your next project</h5>
+              <p class="font-main">Looking for a front end, back end, or full stack web developer to add to your team? or You need a website for your business? I'd love to hear from you!</p>
+            </div>
+            <div class="flex mt-4 items-center justify-center">
+              <div class="mr-4">
+                <a title="Send me an email" href="mailto:kingsjacobfrancis@gmail.com"><span class="text-[40px]"><i class="fas fa-envelope"></i></span></a>
+              </div>
+              <div class="mr-4">
+                <a title="LinkedIn profile" href="https://www.linkedin.com/in/king-jacob-a184a21b2"><span class="text-[40px]"><i class="fab fa-linkedin"></i></span></a>
+              </div>
+              <div class="mr-4">
+                <a title="GitHub profile" href="https://github.com/codeCrown12"><span class="text-[40px]"><i class="fab fa-github"></i></span></a>
+              </div>
+              <div>
+                <a title="Twitter profile" href="https://twitter.com/Kingjacobxx"><span class="text-[40px]"><i class="fab fa-twitter"></i></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <footer class="flex justify-center items-center font-main py-4">
+        <p>👑Codecrown<sup>©</sup> 2022 copyright | Jacob King Francis</p>
+      </footer>
+
       </div>
-    </div>
-  </nav>
-  <div class="main-body">
-    <div class="main-jumbotron">
-      <div class="jumbo-text">
-        <p class="jumbo-name">JACOB KING FRANCIS</p>
-        <p class="jumbo-description">Web Developer/Software Engineer</p>
-        <p class="text-center mt-4"><a href="assets/KING JACOB FRANCIS.pdf" target="_blank" class="btn btn-default">Get resume</a></p>
-        <a href="#about"><div class="bounce-arrow"><i class="fas fa-arrow-down"></i></div></a>
-      </div>
-  </div>
-  <div class="container mt-5">
-    <div class="row justify-content-center">
-      <div class="col-md-12">
-        <div class="row mt-5 justify-content-center" id="about">
-          <div class="col-sm-8 text-center">
-            <h2 class="wow animate__animated animate__fadeInRight o-5s" style="font-weight: 600;">About me</h2>
-            <p class="wow animate__animated animate__fadeInRight o-5s">
-              <p>Hi, I'm Jacob King Francis, but you can call me King. I am a Web Developer currently based in Nigeria. I create simple but perfect UIs, I also create responsive and dynamic user interfaces and applications.</p>
-              <p>I'am someone who has both a creative and a logical side. I let the creative me plan out the design and the logical me write out the code.</p> 
-              <p>I'am passionate about JavaScript and CSS, python, php, currently exploring ReactJS. I am a
-                team player and problem solver who Adapts to changes. If you're looking for a developer to add to your team, I'd love to hear from you! 😊</p>
-            </p>
-          </div>
-        </div>
-        <h2 id="services" class="section-title text-center">Services</h2>
-        <div class="row mt-3">
-          <div class="col-md-4 mb-3">
-            <div class="card myhover p-3 wow animate__animated animate__bounceInUp" data-wow-delay="0s">
-              <div class="card-body">
-                <p class="text-center"><img src="https://img.icons8.com/office/70/000000/computer.png"/></p>
-                <p class="service-title text-center">Web Development</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card myhover p-3 wow animate__animated animate__bounceInUp" data-wow-delay="1s">
-              <div class="card-body">
-                <p class="text-center"><img src="https://img.icons8.com/office/70/000000/iphone-x.png"/></p>
-                <p class="service-title text-center">Mobile Development</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card myhover p-3 wow animate__animated animate__bounceInUp" data-wow-delay="2s">
-              <div class="card-body">
-                <p class="text-center"><img src="https://img.icons8.com/bubbles/70/000000/design.png"/></p>
-                <p class="service-title text-center">UI/UX Design</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <h2 id="projects" class="section-title text-center">Projects</h2>
-        <div class="row mt-3 mb-5">
-          <div class="col-md-4">
-            <div class="mb-3 wow animate__animated animate__fadeInUp" data-wow-delay="0s">
-              <div class="card">
-                <div class="card-body">
-                  <p class="p-title fw-bold">Bobblenote</p>
-                  <p>Blog for sharing content</p>
-                  <p class="p-tools">[ HTML5, CSS, JS, JQuery, PHP, MysQl ]</p>
-                  <p class="text-end mb-0"><a href="http://bobblenote.com/" target="_blank" class="short-cut">View app <i class="fas fa-external-link-alt"></i></a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="mb-3 wow animate__animated animate__fadeInUp" data-wow-delay="1s">
-                <div class="card">
-                  <div class="card-body">
-                    <p class="p-title fw-bold">Crowndidactic</p>
-                    <p>Web app for advertising schools</p>
-                    <p class="p-tools">[ HTML5, CSS, JS, JQuery, PHP, MysQl ]</p>
-                    <p class="text-end mb-0"><a href="https://www.crowndidactic.com/" target="_blank" class="short-cut">View app <i class="fas fa-external-link-alt"></i></a></p>
-                  </div>
-                </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="mb-3 wow animate__animated animate__fadeInUp" data-wow-delay="2s">
-              <div class="card">
-                <div class="card-body">
-                  <p class="p-title fw-bold">Solemall</p>
-                  <p>E-commerce website for selling footwears</p>
-                  <p class="p-tools">[ HTML5, CSS, JS, JQuery, flask, MysQl ]</p>
-                  <p class="text-end mb-0"><a href="https://solemall.pythonanywhere.com/" target="_blank" class="short-cut">View app <i class="fas fa-external-link-alt"></i></a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <h2 id="skills" class="text-center" style="font-weight: bold;margin-top: 0px;">Skills</h2>
-        <div class="row mt-3 bg-light p-4">
-          <div class="col-md-2">
-            <div class="skills">
-              <div class="skill-obj">
-                <p class="skill-icon text-center"><i class="fab fa-js-square"></i></p>
-                <p class="skill-name text-center">Javascript</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="skills">
-              <div class="skill-obj">
-                <p class="skill-icon text-center"><i class="fab fa-react"></i></p>
-                <p class="skill-name text-center">React JS</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="skills">
-              <div class="skill-obj">
-                <p class="skill-icon text-center"><i class="fab fa-python"></i></p>
-                <p class="skill-name text-center">Python</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="skills">
-              <div class="skill-obj">
-                <p class="skill-icon text-center"><i class="fab fa-php"></i></p>
-                <p class="skill-name text-center">PHP</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="skills">
-              <div class="skill-obj">
-                <p class="skill-icon text-center"><i class="fab fa-android"></i></p>
-                <p class="skill-name text-center">Android</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="skills">
-              <div class="skill-obj">
-                <p class="skill-icon text-center"><i class="fab fa-java"></i></p>
-                <p class="skill-name text-center">Java</p>
-              </div>
-            </div>
-          </div>
-        </div>
-  </div>
-  <div class="container-fluid contact">
-    <div class="row justify-content-center">
-      <div class="col-md-11">
-        <h2 id="contact" class="section-title text-center">Contact Me</h2>
-        <div class="row mt-4 mb-5">
-          <div class="col-md-5">
-            <div class="contact-info">
-              <h3>Contact information</h3>
-              <ul class="myinfo">
-                <li><i class="fas fa-at"></i> kingsjacobfrancis@gmail.com</li>
-                <!-- <li class="info-item"><i class="fas fa-phone"></i> +2349017259065</li> -->
-              </ul>
-              <div class="socials">
-                <h3>Follow me</h3>
-                <div class="social-icons">
-                  <a href="https://twitter.com/Kingjacobxx?s=09" target="_blank">
-                    <div class="icon-obj">
-                      <i class="fab fa-twitter"></i>
-                    </div>
-                  </a>
-                  <a href="https://www.instagram.com/kingx_x628/" target="_blank">
-                    <div class="icon-obj">
-                      <i class="fab fa-instagram"></i>
-                    </div>
-                  </a>
-                  <a href="https://www.linkedin.com/in/king-jacob-a184a21b2" target="_blank">
-                    <div class="icon-obj">
-                      <i class="fab fa-linkedin-in"></i>
-                    </div>
-                  </a>
-                  <a href="https://github.com/codeCrown12" target="_blank">
-                    <div class="icon-obj">
-                      <i class="fab fa-github"></i>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-7">
-            <div class="contact-form">
-              <form name="contact" netlify method="post" id="myform">
-                <div class="row g-3 mb-3">
-                  <div class="col">
-                    <input type="text" class="form-control" id="fname" name="fname" placeholder="First name" aria-label="First name">
-                  </div>
-                  <div class="col">
-                    <input type="text" class="form-control" id="lname" name="lname" placeholder="Last name" aria-label="Last name">
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <div class="col-12">
-                    <input type="email" name="email" id="email" class="form-control" placeholder="Email address">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-12">
-                    <textarea name="msg" placeholder="Message" class="form-control" id="msg" rows="8"></textarea>
-                  </div>
-                </div>
-                <button class="mt-3 btn-submit" id="sub_btn"><i class="fas fa-paper-plane"></i> Send Message</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <footer>
-    <p>CODECROWN👑 © 2021 Copyright | Jacob King Francis</p>
-  </footer>
-  </div>
-<script src="scripts/main.js"></script>             
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
-<script>
-  new WOW().init();
-</script>
-<script src="assets/js/main.js"></script>
-</body>
-</html>
+      <script src="https://kit.fontawesome.com/79121b152f.js" crossorigin="anonymous"></script>
+    </body>
+  </html>
